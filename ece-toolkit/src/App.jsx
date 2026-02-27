@@ -10,8 +10,12 @@ function App() {
   return (
     <Router>
       <Routes>
+        {/* HOME PAGE */}
         <Route path="/" element={<Home />} />
+
+        {/* TOOLS PAGE */}
         <Route path="/tools" element={<Tools />} />
+
         <Route path="/tools/ohms" element={<OhmsPage />} />
         <Route path="/tools/rc" element={<RCPage />} />
         <Route path="/tools/binary" element={<BinaryPage />} />
